@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>สอบออนไลน์</title>
+</head>
+
+<body>
+    <h1 align="center">แบบฟอร์มเข้าสอบ</h1>
+    <form name="resume" method="post" action="">
+        <fieldset>
+            <legend>
+                <font color="blue">ข้อมูลส่วนตัว</font>
+            </legend>
+            คำนำหน้าชื่อ :
+            <input type="radio" name="prename" value="1">นาย
+            <input type="radio" name="prename" value="2">นางสาว
+            <input type="radio" name="prename" value="3">นาง
+            <br>ชื่อ:<input type="text" name="name" size="20">
+            <br>นามสกุล:<input type="text" name="name" size="20">
+            <br>เลขบัตรประชาชน:<input type="text" name="id" size="13">
+            <br>ศาสนา:<select name="region">
+                <option value="reg0">เลือก</option>
+                <option value="reg1">พุทธ</option>
+                <option value="reg2">คริสต์</option>
+                <option value="reg3">อิสลาม</option>
+                <option value="reg4">อื่นๆ</option>
+                </select>
+            <br>วัน/เดือน/ปีเกิด<input type="data" name="birthday">
+        </fieldset><br>   
+        <fieldset>
+            <legend>
+                <font color="blue">ที่อยู่ปัจจุบัน</font>
+            </legend>
+            บ้านเลขที่:<input type="text" name="name" size="20">
+            หมู่ที่:<input type="text" name="name" size="10">
+            อาคาร:<input type="text" name="name" size="20">
+            หมู่บ้าน:<input type="text" name="name" size="20"><br>
+            ถนน:<input type="text" name="name" size="20">
+            แขวง/ตำบล:<input type="text" name="name" size="20">
+            เขต/อำเภอ:<input type="text" name="name" size="20"><br>
+            จังหวัด:<input type="text" name="name" size="20">
+            รหัสไปรษณีย์:<input type="text" name="name" size="10"><br>
+            โทรศัพท์:<input type="text" name="name" size="20">
+        </fieldset><br>
+        <fieldset>
+            <legend>
+                <font color="blue">วิชาที่เข้าสอบ</font>
+            </legend>
+        <input type="checkbox" name="LNG" value="TH">ภาษาไทย
+        <input type="checkbox" name="LNG" value="EN">คณิตศาสตร์
+        <input type="checkbox" name="LNG" value="CH">ภาษาอังกฤษ
+        <input type="checkbox" name="LNG" value="JA">ประวัติศาสตร์
+        </fieldset><br> 
+        &nbspรูปผู้เข้าสอบ (JPG ขนาดไม่เกิน 100 KB) : <input type="file">
+        <p align="center">
+            <font color="red"><input type="checkbox" name="note" value="1">โดยใบเข้าสอบนี้ข้าพเจ้าขอรับรองว่า ข้อมูลที่กรอกเป็นความจริงทุกประการ หากมีการกล่าวเท็จ ในใบเข้าสอบ จะเป็นสาเหตูที่เพียงพอที่จะปลดข้าพเจ้าออกจากการสอบ</font>
+        </p>
+        <center><input type="submit" value="ส่งใบสมัคร"> &nbps &nbsp
+        <input type="reset" value="ล้างข้อมูล"></center>
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <title>This is a JavaScript example</title>
+</head>
+<body>
+    <script>
+        var x = new Date();
+        document.write(x);
+    </script>
+    <br><br>
+    <a href="javascript:history.back()">Back</a> |
+    <a href="javascript:window.print()">Print</a> |
+    <a href="javascript:window.close()">Close</a>
+
+
+    <script>
+        function openBlank() {
+            window.open("blank.htm", "popup", "height=200,width=200,left=150,top=150,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no");
+        }
+    </script>
+    <br><br>
+    <a href="#" onclick="openBlank()"><u>Click</u></a> |
+    <a href="#" onclick="window.open('http://www.cnn.com', 'popup', 'height=400,width=800,left=150,top=150,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no')"><u>Go to CNN.com</u></a>
+</body>
+</html>
